@@ -2,6 +2,8 @@
 
 A Next.js app for interactive image-based quizzes. Users answer questions, upload images, and see results.
 
+- Demo: [Image Quiz Demo](https://image-quiz.vercel.app)
+
 ## Features
 
 - Multi-step quiz with single/multi-choice questions

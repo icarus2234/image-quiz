@@ -1,7 +1,13 @@
 .mainContainer {
-    min-height: calc(100dvh - var(--header-height));
-    max-width: var(--max-mobile-width);
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
     overflow: auto;
+    margin: 0 auto;
+    max-width: var(--max-mobile-width);
+    height: calc(100dvh - var(--header-height));
+    padding: 40px;
 }
 
