@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import { FC } from 'react';
 
-import { imageFilePathKey, localFileStorage, QuizPage, Routes } from '@/helpers';
+import { imageFilePathKey, localFileStorage, QuizPage, resultsStorageKey, Routes } from '@/helpers';
 import { Button } from '@/modules/layout/button';
 import { Typography } from '@/modules/layout/typography';
 import { useQuizPage } from '@/modules/quiz/hooks/use-quiz-page';
@@ -26,6 +26,7 @@ export const EndTemplate: FC<EndTemplateProps> = ({ pageConfig }) => {
 
   const handleEndQuiz = () => {
     push(Routes.Home);
+    console.log('Quiz results', localFileStorage.get(resultsStorageKey));
     localFileStorage.clear();
     setHeaderProgress(0);
   };
