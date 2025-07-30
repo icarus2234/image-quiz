@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 40px;
+    width: 100%;
+    max-width: var(--max-mobile-width);
+ 
+}
+
+
+

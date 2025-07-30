@@ -1,0 +1,68 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --brand-primary: #0D99FF;
+    --brand-primary-dark: #004BB2;
+    --error: #FF0D11;
+    --border-color: #495F6E;
+    --text-main: #1A2228;
+    --text-secondary: #A7A7A7;
+    --font-size: 18px;
+    --line-height: 24px;
+    --font-outfit: 'Outfit', sans-serif;
+    --max-mobile-width: 608px;
+    --header-height: 76px;
+}
+
+
+body {
+    font-family: var(--font-outfit);
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: 600 !important;
+}
+
+.mb-12 {
+    margin-bottom: 12px;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mb-48 {
+    margin-bottom: 48px;
+}
+
+.mt-8 {
+    margin-top: 8px;
+}
+
+.textAlignLeft {
+    text-align: left !important;
+}
+
+.textSecondary {
+    color: var(--text-secondary) !important;
+}
+
+.textError {
+    color: var(--error) !important;
+}
+
+
+.plusJakartaSans {
+    font-family: var(--font-plus-jakarta) !important;
+}
+
+.inter {
+    font-family: var(--font-inter) !important;
+}

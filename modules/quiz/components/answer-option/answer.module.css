@@ -1,0 +1,45 @@
+.answerOption {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 24px;
+    width: 100%;
+    min-height: 72px;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.selected {
+    background-color: #0D99FF;
+    color: var(--white);
+    border-color: #0D99FF; 
+}
+
+.selected .radioInput[type="radio"] {
+    accent-color: var(--white);
+}
+
+.radioInput {
+    width: 24px;
+    height: 24px;
+    margin: 0;
+    margin-right: 24px;
+    flex-shrink: 0;
+}
+
+.radioText {
+    flex: 1;
+    text-align: left;
+}
+
+.answerOptionContainer {
+    width: 100%;
+}
+
+.answerOption:focus {
+  outline: 2px solid #0D99FF;
+  outline-offset: 2px;
+}

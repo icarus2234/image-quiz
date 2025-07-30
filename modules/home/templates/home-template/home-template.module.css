@@ -1,0 +1,8 @@
+.homeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: calc(100dvh - var(--header-height));
+    padding: 40px;
+}

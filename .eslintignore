@@ -1,0 +1,26 @@
+.idea
+.github
+.husky
+.run
+.storybook
+build
+node_modules
+
+# Next.js specific
+.next/
+out/
+dist/
+next-env.d.ts
+
+# Testing
+coverage/
+.nyc_output/
+
+# Cache
+.eslintcache
+.cache/
+
+# Public assets
+public/
+
+

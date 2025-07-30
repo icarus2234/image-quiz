@@ -1,0 +1,7 @@
+.mainContainer {
+    min-height: calc(100dvh - var(--header-height));
+    max-width: var(--max-mobile-width);
+    margin: 0 auto;
+    overflow: auto;
+}
+

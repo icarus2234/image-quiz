@@ -1,0 +1,27 @@
+.default {
+    color: var(--text-main);
+    text-align: center;
+}
+
+.heading1 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 900;
+    letter-spacing: 0;
+   
+}
+
+.body {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0;
+}
+
+.body2 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    
+}

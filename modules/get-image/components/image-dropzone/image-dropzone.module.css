@@ -1,0 +1,26 @@
+.dropArea {
+    border: 1px dashed var(--border-color);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.dropAreaDragging {
+    border-color: var(--brand-primary);
+}
+
+.dropAreaError {
+    border-color: var(--error);
+}
+
+.uploadImageIcon {
+    margin-bottom: 16px;
+}
